@@ -1,0 +1,9 @@
+menuconfig LIBFLATBUFFERS
+    bool "FlatBuffers - cross platform serialization library"
+    select LIBCXX
+    select LIBNEWLIBC
+    select LIBPOSIX_SYSINFO
+    select LIBCXXABI
+    select LIBCOMPILER_RT
+    select LIBUNWIND
+    default n
