@@ -1,0 +1,6 @@
+name        := "flatbuffers"
+description := "A cross platform serialization library architected for maximum memory efficiency."
+gitrepo     := "https://github.com/google/flatbuffers.git"
+homepage    := "http://google.github.io/flatbuffers"
+version     := 1.11.0 sha256:3f4a286642094f45b1b77228656fbd7ea123964f19502f9ecfd29933fd23a50b https://github.com/google/flatbuffers/archive/v1.11.0.tar.gz
+license     := "Apache-2.0"
